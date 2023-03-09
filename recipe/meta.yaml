@@ -21,8 +21,9 @@ requirements:
   run:
     - python >=3.6
     - requests
-    - pyopenssl
+    - pyopenssl >=0.14
     - urllib3
+    # Includes all secure packages
     - deprecated
 
 test:
