@@ -1,11 +1,11 @@
-About mastercard-oauth1-signer
-==============================
+About mastercard-oauth1-signer-feedstock
+========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mastercard-oauth1-signer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Mastercard/oauth1-signer-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mastercard-oauth1-signer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mastercard OAuth1 Signer.
 
