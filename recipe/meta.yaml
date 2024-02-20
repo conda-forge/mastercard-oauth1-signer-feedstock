@@ -1,5 +1,5 @@
 {% set name = "mastercard-oauth1-signer" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mastercard-oauth1-signer-{{ version }}.tar.gz
-  sha256: 01e854c4c5407c0d342aef74ec4a83f8cdc8969799f1e8e1d7af8671b3213589
+  sha256: 1ba92ec570e76bfc2bde18f5a50321a025b6b9ade32cf929f44ab31f644f563d
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - requests
     - pyopenssl >=22.1.0,<=23.2.0
     - urllib3
