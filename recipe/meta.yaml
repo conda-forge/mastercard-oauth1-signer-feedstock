@@ -22,7 +22,6 @@ requirements:
     - cryptography >=42.0.0
     - python >={{ python_min }}
     - requests
-    - pyopenssl >=22.1.0,<=23.2.0
     - urllib3
     # Includes all secure packages
     - deprecated
