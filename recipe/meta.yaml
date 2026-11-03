@@ -1,13 +1,13 @@
 {% set name = "mastercard-oauth1-signer" %}
-{% set version = "1.9.2" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3702026d982222dfc1ccb940f32ddeeab2121cf424671edd02260a260b803b42
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 84a17dabffcefe1b9904df53da63e8be492ef0ea035d6f36b45dc1b8ff183570
 
 build:
   noarch: python
